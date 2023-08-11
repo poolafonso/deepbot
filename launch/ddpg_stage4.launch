@@ -1,0 +1,5 @@
+<launch>
+  <arg name="stage" default="4"/>
+  <param name="stage_number"  value="$(arg stage)"/>
+  <node pkg="deepbot" type="ddpg_stage_4.py" name="deepbot_stage_4" output="screen" />
+</launch>

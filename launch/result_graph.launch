@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="deepbot" type="result_graph.py" name="result_graph" output="screen" />
+  <!--node pkg="deepbot" type="action_graph.py" name="action_graph" output="screen" /-->
+</launch>
